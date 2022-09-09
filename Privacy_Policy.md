@@ -6,9 +6,11 @@ For external use
 ## Review Information
 
 __Mandatory Reivew Period__
+
 Yearly
 
 __Date of Last Review__
+
 N/A
 
 ## Introduction
@@ -39,6 +41,7 @@ principle) with control over potential negative effects.
 ## Definitions 
 
 __Privacy__ 
+
 This is surprisingly complex and any definition made here is subject to change, especially as laws and mores change over 
 time. However, in general we think of privacy as:
 A non-absolute right of persons to have direct or indirect control over access to: 
@@ -51,6 +54,7 @@ about you. It is important to remember that, in a general sense, the Internet is
 be accessed from a private location.
 
 __Personal Information/Data__
+
 Personal information/data is defined in the law as information/data that can be linked with a natural person. This can be anything from a name to 
 relgious affiliation, to sexual preference, to IP address.
 
