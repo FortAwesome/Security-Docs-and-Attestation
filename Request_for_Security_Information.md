@@ -8,7 +8,7 @@ these questions.  However, in the interest of transparency and respect for other
 publically available security information.  We will keep this document up-to-date.  Please review these contents before 
 requesting additional security information. 
 
-## Font Awesome Security 
+## Font Awesome Security
 
 ### Security Mission Statements
 
@@ -29,8 +29,7 @@ scrutinized, and used without issue by millions of people (who have never been s
 Payment information is processed via secure 3rd parties and the only information about our clients that we must store is a 
 contact email address.  From a privacy perspective, while using Font Awesome, we collect some logs for standard 
 troubleshooting and analytics purposes but we make no attempt associate IP information with individuals, nor do we share 
-or sell the information we do have.  Even if we did, we're not certain in what case anyone would care if a person happened 
-to visit a site that happened to serve some awesome icons.
+or sell the information we do have.
 
 #### Known Security Risks Associated with Font Awesome 
 
@@ -47,6 +46,31 @@ product and do not include items such as phishing attempts or look-a-like domain
    1. An attacker might gain access to our database and inject defaced imagegs into our SVG and WOFF/WOFF2 files resulting in defacement.
    1. An attacker might execute a man-in-the-middle attack to maliciously modify our SVG and WOFF/WOFF2 files resulting in defacement.
    1. An attacker might execute a denial of service attack against our infrastructure resulting in poor performance on pages using Font Awesome icons.
+
+#### Discussion of Privacy Risks Associated with Font Awesome 
+
+Font Awesome collects a minimal amount of personal information/data. Detailed information about what we collect is available
+in our privacy policy. In general, Font Awesome collects very little information about our clients and their users, only 
+enough to provide our service and make sure it isn't being over taxed. Unlike free services that use your data as a source 
+of revenue, Font Awesome's only source of revenue is our clients. In general the overall privacy risk is no higher with Font 
+Awesome than any other publicly available website. We maintain some logs for troubleshooting purposes and we have our own 
+internal analytics. Theoretically, an attacker could gain access to that information and determine that certain IP addresses 
+had connected to sites that use Font Awesome. It is our opinion, however, exposure of this data is only marginally more 
+likely than it would be by simply connecting to the site via the Internet.
+
+#### A Quick and Easy Way to Bypass Most Security Concerns When Using Font Awesome 
+
+One of the main benefits of using Font Awesome is that we leverage a CDN to quickly deliver icons to your site, offloading 
+that work from your servers. However, this is the main interaction where there is any risk. When you setup our Kits and your 
+solution directs clients to our CDN to we have to exchange some data. In this way, it is possible for us to learn 
+potentially private data/information (as defined in things like the GDPR) about you and your users.
+
+You can completely bypass this risk by hosting Font Awesome assets yourself. While you would be losing the benefit of our 
+CDN you would have effective control of the assets and no way for Font Awesome to gain any additional information about you 
+or your clients. The assets would be resident on your servers and you could scan them for security vulnerabilities, etc., in
+accordance with your own best security practices.
+
+The specific instructions to self-host are here: [https://fontawesome.com/docs/web/setup/host-yourself/webfonts](https://fontawesome.com/docs/web/setup/host-yourself/webfonts) or here [https://fontawesome.com/docs/web/setup/host-yourself/svg-js](https://fontawesome.com/docs/web/setup/host-yourself/svg-jsv).
 
 ## Common Security Questions and Answers
 
@@ -72,4 +96,8 @@ While there is value in having certifications such as SOC 2 or ISO 27001 they do
 2017 attack on Experian that resulted in the loss of 147 million records happened while the company had ISO 27001 
 certification.  The cost of many of these certifications is not comenserate with the benefit we or our clients would receive 
 given the low risk nature of our solution.
+
+__Do you have security policies__
+
+__What security policies do you have__
 
