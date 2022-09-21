@@ -1,7 +1,7 @@
 # PRIVACY POLICY (DRAFT)
 
 ## Classification Level
-For external use
+Publicly available
 
 ## Review Information
 
@@ -15,8 +15,8 @@ N/A
 
 ## Introduction
 
-A privacy policy helps users understand what information we collect, why we collect it, what we do with it, and how they can 
-request changes or removal of their data.
+A privacy policy helps external parties understand what information we collect, why we collect it, what we do with it, and 
+how they can request changes or removal of their data.
 
 ### Goal Statement
 
@@ -58,7 +58,7 @@ __Personal Information/Data__
 Personal information/data is defined in the law as information/data that can be linked with a natural person. This can be anything from a name to 
 relgious affiliation, to sexual preference, to IP address.
 
-## Terms
+### Terms
 
 * The word we shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
 * Client shall mean a person or entity who installs or configures part or all of the Font Awesome product/service for use on a website or product not owned or otherwise controlled by Fonticons.

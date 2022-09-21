@@ -75,6 +75,7 @@ The specific instructions to self-host are here: [https://fontawesome.com/docs/w
 ## Common Security Questions and Answers
 
 __Company Name, Parent or Holding Company, etc.__
+
 Fonticons Inc.
 307 S. Main St. Suite 202
 Bentonville AR 72712
@@ -83,21 +84,55 @@ Not affliated, controlled, or owned by any other entity.
 No subsidiaries
 
 __Any significant data breaches in the last 3 years__
+
 No 
 
 __Do we have a dedicated information security team__
+
 No 
+
 We are a small company and our goal is to educate our engineers to address security concerns during design and initial 
 implementation.
 
 __Do you have or maintain any security certifications__
+
 No 
+
 While there is value in having certifications such as SOC 2 or ISO 27001 they do not guarantee security.  For example the 
 2017 attack on Experian that resulted in the loss of 147 million records happened while the company had ISO 27001 
 certification.  The cost of many of these certifications is not comenserate with the benefit we or our clients would receive 
 given the low risk nature of our solution.
 
+__How do you determine/manage security concerns__
+
+We use a threat modeling approach to understand the primary risks to our system. From there we make determinations about the
+highest level of risk and prioritize fixes.
+
+__Can we review your threat model__
+
+Generally no
+
+We do provide a sanitized and simplified version of our threat model but we hide most of the details. We are open to sharing
+that informatiton more broadly under certain circumstances, specifically those where it is clear the client understands the 
+low risk nature of our solution and has concerns that cannot be easily remedied via self-hosting.
+
 __Do you have security policies__
+
+Yes
 
 __What security policies do you have__
 
+Access Control, Change Management, Incident Response, and Privacy Policies.
+
+Some of our practices are de facto and easily enforceable in a company of our size but we are open to documenting those
+practices if a valid case can be made that is both useful for us and our clients.
+
+__How is our data protected__
+
+As stated above, very little data is collected. The data we do collect is generally the lowest level of sensitivity, e.g., a 
+contact email address and images you plan to make available via your website, service, or app. All communication between 
+you and us is encrypted via HTTPS (thus your agent has some level of responsibility in determining the level of encryption). 
+However, because of the low risk nature of what we store we don't use MFA on our main site nor do we have a specific multi-
+tenancy scheme in our database, etc. All systems that store or transfer data are protected with username and password for 
+login and many of those do use MFA to prevent unauthorized access to client data. We currently do not encrypt our data at 
+rest but we are in the process of changing that.
