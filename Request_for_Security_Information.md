@@ -127,6 +127,22 @@ Access Control, Change Management, Incident Response, and Privacy Policies.
 Some of our practices are de facto and easily enforceable in a company of our size but we are open to documenting those
 practices if a valid case can be made that is both useful for us and our clients.
 
+__Are your staff trained on security__
+
+Yes, on this point we're somewhat proud as we are building a true security culture as opposed to simply checking a security 
+training box. In general we use a Socratic method of teaching security and allow our employees to develop their own 
+interests in security via a buddy system of independant verification.
+
+There is a mandatory training schedule, but we use the time to talk and engage instead of having people watch a simple 
+online training video via an LMS. We do this because our goal is mastery first, compliance second.
+
+__What data do you collect__
+
+Our Privacy Policy explicitly lays out what data we collect. With the exception of some optional data, everything we collect 
+is required for us to provide and maintain our serivce. For the most part we need some basic contact information and then 
+any items you plan to host. We do not store payment card information and any other potentially sensitive data, e.g., IP 
+addresses are stored only temporarily for troubleshooting or anonymized, aggregated, and deleted.
+
 __How is our data protected__
 
 As stated above, very little data is collected. The data we do collect is generally the lowest level of sensitivity, e.g., a 
@@ -136,3 +152,35 @@ However, because of the low risk nature of what we store we don't use MFA on our
 tenancy scheme in our database, etc. All systems that store or transfer data are protected with username and password for 
 login and many of those do use MFA to prevent unauthorized access to client data. We currently do not encrypt our data at 
 rest but we are in the process of changing that.
+
+__With who/which Vendors do you share our data__
+
+From a general security perspective we do not share this information freely. We are open to sharing that informatiton more 
+broadly under certain circumstances, specifically those where it is clear the client understands the low risk nature of our 
+solution and has concerns that cannot be easily remedied via self-hosting. 
+
+We do have a cloud-based infrastructure where your data is stored (temporarily or permenantly) but while they host the data 
+there are standard agreements in place that those vendors do not access your data. Additionally, access to those 3rd party 
+providers is secured. We process payments via well known and well established 3rd party providers.
+
+__Since you have a cloud-based infrastructure, how do you monitor that__
+
+We have standard monitors for our infrastructure that monitor disk, processor, and network usage. We monitor all our key 
+services to validate their status. We have alerting setup when something fails or experiences a degredation in performance.
+Beyond that, large portions of our infrastructure are effectively immutable which provides an additional level of security 
+in general.
+
+__Is your network segmented/zoned/secured__
+
+Yes and no. We don't have a traditional network where users and servers are in a big office so if someone sneaks in they can
+sniff sensitive stuff off the wire, etc. We have a network that is inherently segmented. For our services to talk to one 
+another they must but explicitly configured to do so because most are not necessarily resident on the same network (again, 
+cloud-based infrastructure with various providers).
+
+__Do services/employees interact with one another securely__
+
+Yes.
+
+You can't access our database or configuration for our webserver or CDN without some form of authentication and 
+authorization. However, some security is up to the user to implement correctly such as limiting which domains can use their
+kits token for example.
