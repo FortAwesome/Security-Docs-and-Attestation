@@ -50,6 +50,7 @@ ways that we do not expect).
 
 ## Policy 
 
+1. This policy applies to changes that directly impact clients. Like for like functional changes such as those associated with operations or security follow a different policy. 
 1. All employees may suggest, request, or initiate a change to the Font Awesome product or service.
 1. Any user with access to GitHub may suggest or request a change to the Font Awesome product or service.
 1. All changes must either be classified as technical or design changes.

@@ -43,10 +43,12 @@ understand how we deal with issues, especially those that might result in a loss
 
 ## Policy 
 
+(Add pager duty, add status indicator page, add trevor info)
 1. All critical systems must have some level of automated monitoring and alerting.
 1. All employees are responsible for monitoring potential incidents.
-1. Any employee who detects an incident or potential incident must immediately contact their supervisor, the head of development, the head of security, and/or the CTO.
-1. During an active incident all employees should consider the incident their top priority and should coordinate with their supervisor to determine what actions they are expected to take to remedy the issue.
+1. Any employee who detects an incident or potential incident must immediately report to our internal reporting tool.
+1. Any employee can begin addressing an incident after reporting.
+1. During an active incident all employees should consider the incident their top priority and should coordinate with the team to determine what actions they are expected to take to remedy the issue.
 1. Upon detection of an incident impacting clients, the CTO or CEO will make an official statement via Twitter.
 1. Other department heads or employees will update official communication as necessary.
 1. If an incident results in loss of client data, we will also communicate that information directly to clients via their existing contact information.

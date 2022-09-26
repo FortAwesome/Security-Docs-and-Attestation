@@ -58,13 +58,6 @@ company of our size, having a de jure policy that others can consider is appropr
 1. Any employee or pro clients accessing Fonticons systems (with the exception of the free and or public aspects of the system) must be authenticated to said system and only be able to access those items to which they have appropriate authorization
 1. System access must not be granted to any employee without appropriate approval from a manager or the head of security 
 1. System access must be granted only on a need-to-know basis
-1. All systems that have an authentication and authorization system must log: 
-   1. Who/what was authenticated
-   1. The authorization level
-   1. The method of access 
-   1. Any privileged activites
-   1. The timestamp for the privileged activity (including authentication and authorization)
-1. Logs must be stored for a minimum of 1 year
 1. Employees are prohibited from gaining unauthorized access to any other information systems or in any way damaging, altering, or disrupting the operations of these systems
 
 ## Procedures
