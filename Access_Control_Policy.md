@@ -40,7 +40,7 @@ company of our size, having a de jure policy that others can consider is appropr
 
 ### Terms
 
-* The word we shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
+* The word "we" shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
 * Employee shall mean an individual directly employeed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
 * Client shall mean a person or entity who installs or configures part or all of the Font Awesome free product/service for use on a website or product not owned or otherwise controlled by Fonticons.
 * Pro client shall mean a person or entity who installs or configures part or all of the Font Awesome paid product/service for use on a website or product not owned or otherwise controlled by Fonticons.
@@ -63,6 +63,6 @@ company of our size, having a de jure policy that others can consider is appropr
 ## Procedures
 
 1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of security (Alex Poiry), or the CTO (Travis Chase)
-1. Intentionally or maliciously violating this policy is a serious offense and grouds for termination of employeement
+1. Intentionally or maliciously violating this policy is a serious offense and grounds for termination of employement
 1. Any system not in compliance with this policy must have compliance activities identified and prioritized
    1. Prioritization of compliance must be documented and produced upon request

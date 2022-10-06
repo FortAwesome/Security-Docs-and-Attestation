@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Fonticons Inc recieves regular requests to supply security related information and often fill out security questionnaires.
+Fonticons Inc receives regular requests to supply security related information and often fill out security questionnaires.
 While we understand that this is often a part of business and security process, we do not typically provide answers to 
 these questions.  However, in the interest of transparency and respect for other's processes, this document lays out our 
 publically available security information.  We will keep this document up-to-date.  Please review these contents before 
@@ -28,7 +28,7 @@ common technologies such as CSS, JavaScript, and various other frameworks.  This
 scrutinized, and used without issue by millions of people (who have never been shy about telling us if there is a problem).
 Payment information is processed via secure 3rd parties and the only information about our clients that we must store is a 
 contact email address.  From a privacy perspective, while using Font Awesome, we collect some logs for standard 
-troubleshooting and analytics purposes but we make no attempt associate IP information with individuals, nor do we share 
+troubleshooting and analytics purposes but we make no attempt associate the IP information with individuals, nor do we share 
 or sell the information we do have.
 
 #### Known Security Risks Associated with Font Awesome 
@@ -43,7 +43,7 @@ product and do not include items such as phishing attempts or look-a-like domain
    1. An attacker might gain access to our database and inject malicious code into our SVGs.
    1. An attacker might execute a man-in-the-middle attack to maliciously modify an SVG in transit.
 1. SVGs and WOFF/WOFF2 files are graphical in nature and may be attacked to deface a consuming website or service.
-   1. An attacker might gain access to our database and inject defaced imagegs into our SVG and WOFF/WOFF2 files resulting in defacement.
+   1. An attacker might gain access to our database and inject defaced images into our SVG and WOFF/WOFF2 files resulting in defacement.
    1. An attacker might execute a man-in-the-middle attack to maliciously modify our SVG and WOFF/WOFF2 files resulting in defacement.
    1. An attacker might execute a denial of service attack against our infrastructure resulting in poor performance on pages using Font Awesome icons.
 

@@ -23,7 +23,7 @@ functionality.
 
 At present, we are a small company (literally everyone in the company knows everyone else on a first name basis). Any change 
 is easily vetted with all internal stakeholders and subject matter experts. However, it is easy, especially within a group 
-the is very comfortable with one another, to grow complacent in our rigor around validating the impact of a change. To that 
+that is very comfortable with one another, to grow complacent in our rigor around validating the impact of a change. To that 
 end there is some benefit in formalizing aspects of change management or, at minimum, capturing what commonly occurs. When 
 contemplating or initiaing change we should always apply due diligence in the consideration of client needs while balancing
 our needs as well.
@@ -39,7 +39,7 @@ ways that we do not expect).
 
 ### Terms
 
-* The word we shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
+* The word "we" shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
 * Employee shall mean an individual directly employeed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
 * User shall mean any individual who is not an employee.
 * Client shall mean a person or entity who installs or configures part or all of the Font Awesome free product/service for use on a website or product not owned or otherwise controlled by Fonticons.
@@ -63,9 +63,9 @@ ways that we do not expect).
 1. The head of development and head of design should consult with the CTO or other department heads (e.g., head of security or head of operations) if the proposed change is significant or otherwise has special significance in another department.
 1. All changes must ultimately be tracked in our project management software unless they are an emergency fix. In those instances the fact that the fix was an emergency must be recorded in code management.
 1. We will attempt to release standard changes every 6-8 weeks.
-1. The head of development and CTO may choose to release an emergency fix at any cadence they deems necessary for the stability of the product or service.
+1. The head of development and CTO may choose to release an emergency or maintenance fix at any cadence they deem necessary for the stability of the product or service.
 
 ## Procedures
 
 1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development (Rob Madole), the head of design (Jory Raphael) the head of security (Alex Poiry), or the CTO (Travis Chase).
-1. Intentionally or maliciously violating this policy is a serious offense and grouds for termination of employeement.
+1. Intentionally or maliciously violating this policy is a serious offense and grounds for termination of employement.
