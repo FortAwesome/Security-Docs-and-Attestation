@@ -5,7 +5,7 @@ Publicly available
 
 ## Review Information
 
-__Mandatory Reivew Period__
+__Mandatory Review Period__
 
 Yearly
 
@@ -16,7 +16,7 @@ N/A
 ## Introduction
 
 An incident response policy clearly defines the roles, responsibilities, and expectations around investigations and actions
-associtated with a cybersecurity incident, such as a data breach or other attack.
+associated with a cybersecurity incident, such as a data breach or other attack.
 
 ### Goal Statement
 
@@ -27,13 +27,13 @@ preference restoring functionality and maintaining client commitments first.
 ### Background Statement 
 
 We, at Fonticons, know our culture but it is entirely reasonable for others planning to use our technology to desire to 
-understand how we deal with issues, especially those that might result in a loss of or degregation of service.
+understand how we deal with issues, especially those that might result in a loss of or degradation of service.
 
 ## Definitions 
 
 ### Terms
 
-* Employee shall mean an individual directly employeed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
+* Employee shall mean an individual directly employed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
 * Client shall mean a person or entity who installs or configures part or all of the Font Awesome free product/service for use on a website or product not owned or otherwise controlled by Fonticons.
 * Incident shall mean any event, whether electronic, physical or social that adversely impacts the confidentiality, integrity or availability of Fonticons systems or data.
 * Fonticons system shall mean any computers, communication systems, platforms, and any other information technology systems used by Fonticons Inc., to provide the Font Awesome product and service.
@@ -56,4 +56,4 @@ understand how we deal with issues, especially those that might result in a loss
 ## Procedures
 
 1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development (Rob Madole), the head of security (Alex Poiry), or the CTO (Travis Chase).
-1. Intentionally or maliciously violating this policy is a serious offense and grouds for termination of employeement.
+1. Intentionally or maliciously violating this policy is a serious offense and grouds for termination of employment.

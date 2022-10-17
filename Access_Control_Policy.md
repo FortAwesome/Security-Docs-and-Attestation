@@ -5,7 +5,7 @@ Publicly available
 
 ## Review Information
 
-__Mandatory Reivew Period__
+__Mandatory Review Period__
 
 Yearly
 
@@ -41,7 +41,7 @@ company of our size, having a de jure policy that others can consider is appropr
 ### Terms
 
 * The word "we" shall mean Fonticons Inc, all Fonticons employees and any individuals contracting with Fonticons to complete work.
-* Employee shall mean an individual directly employeed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
+* Employee shall mean an individual directly employed by Fonticons Inc and all contractors, consultants, temporary employees, or business partners.
 * Client shall mean a person or entity who installs or configures part or all of the Font Awesome free product/service for use on a website or product not owned or otherwise controlled by Fonticons.
 * Pro client shall mean a person or entity who installs or configures part or all of the Font Awesome paid product/service for use on a website or product not owned or otherwise controlled by Fonticons.
 * Fonticons system shall mean any computers, communication systems, platforms, and any other information technology systems used by Fonticons Inc., to provide the Font Awesome product and service.
@@ -54,7 +54,7 @@ company of our size, having a de jure policy that others can consider is appropr
 1. This policy applies to all Fonticons systems
 1. All Fonticons systems must implement or otherwise leverage an authentication and authorization scheme that can limit access based on authentication information
    1. To facilitate this policy Fonticons must maintain a valid, up-to-date inventory of their systems as part of their asset inventory
-1. Authorization level must be commenserate with the role and/or business related activities, e.g., an icon designer does not typically require admin access to the logging database
+1. Authorization level must be commensurate with the role and/or business related activities, e.g., an icon designer does not typically require admin access to the logging database
 1. Any employee or pro clients accessing Fonticons systems (with the exception of the free and or public aspects of the system) must be authenticated to said system and only be able to access those items to which they have appropriate authorization
 1. System access must not be granted to any employee without appropriate approval from a manager or the head of security 
 1. System access must be granted only on a need-to-know basis
@@ -63,6 +63,6 @@ company of our size, having a de jure policy that others can consider is appropr
 ## Procedures
 
 1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of security (Alex Poiry), or the CTO (Travis Chase)
-1. Intentionally or maliciously violating this policy is a serious offense and grounds for termination of employement
+1. Intentionally or maliciously violating this policy is a serious offense and grounds for termination of employment
 1. Any system not in compliance with this policy must have compliance activities identified and prioritized
    1. Prioritization of compliance must be documented and produced upon request

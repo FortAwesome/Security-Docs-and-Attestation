@@ -5,7 +5,7 @@ Publicly available
 
 ## Review Information
 
-__Mandatory Reivew Period__
+__Mandatory Review Period__
 
 Yearly
 

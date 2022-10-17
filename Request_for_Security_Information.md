@@ -24,7 +24,7 @@ requesting additional security information.
 
 We consider Font Awesome to be a very low risk solution in general.  The core of our offering is effectively images in an 
 SVG, WOFF, or WOFF2 format.  To make it easy to consume these images we have various wrappers and features built for 
-common technologies such as CSS, JavaScript, and various other frameworks.  This aspect of our code is opensource, heavily
+common technologies such as CSS, JavaScript, and various other frameworks.  This aspect of our code is open source, heavily
 scrutinized, and used without issue by millions of people (who have never been shy about telling us if there is a problem).
 Payment information is processed via secure 3rd parties and the only information about our clients that we must store is a 
 contact email address.  From a privacy perspective, while using Font Awesome, we collect some logs for standard 
@@ -36,7 +36,7 @@ or sell the information we do have.
 The following are a set of known security risks associated with the use of Font Awesome.  These are risks specific to our 
 product and do not include items such as phishing attempts or look-a-like domains which are common across the Internet.
 
-1. Access and configuration of Font Awesome is done via an online portal with authentication and authorization via user name and password.
+1. Access and configuration of Font Awesome is done via an online portal with authentication and authorization via username and password.
    1. An attacker compromising the user name and password can deny the user access to Font Awesome.
    1. An attacker compromising the user name and password can use Font Awesome without paying for the service.
 1. SVGs are just XML; they can have embedded CSS and JavaScript which, unless otherwise configured, a browser will execute.
@@ -62,7 +62,7 @@ likely than it would be by simply connecting to the site via the Internet.
 
 One of the main benefits of using Font Awesome is that we leverage a CDN to quickly deliver icons to your site, offloading 
 that work from your servers. However, this is the main interaction where there is any risk. When you setup our Kits and your 
-solution directs clients to our CDN to we have to exchange some data. In this way, it is possible for us to learn 
+solution directs clients to our CDN so we have to exchange some data. In this way, it is possible for us to learn 
 potentially private data/information (as defined in things like the GDPR) about you and your users.
 
 You can completely bypass this risk by hosting Font Awesome assets yourself. While you would be losing the benefit of our 
@@ -80,7 +80,7 @@ Fonticons Inc.
 307 S. Main St. Suite 202
 Bentonville AR 72712
 United States
-Not affliated, controlled, or owned by any other entity.
+Not affiliated, controlled, or owned by any other entity.
 No subsidiaries
 
 __Any significant data breaches in the last 3 years__
@@ -100,7 +100,7 @@ No
 
 While there is value in having certifications such as SOC 2 or ISO 27001 they do not guarantee security.  For example the 
 2017 attack on Experian that resulted in the loss of 147 million records happened while the company had ISO 27001 
-certification.  The cost of many of these certifications is not comenserate with the benefit we or our clients would receive 
+certification.  The cost of many of these certifications is not commensurate with the benefit we or our clients would receive 
 given the low risk nature of our solution.
 
 __How do you determine/manage security concerns__
@@ -113,7 +113,7 @@ __Can we review your threat model__
 Generally no
 
 We do provide a sanitized and simplified version of our threat model but we hide most of the details. We are open to sharing
-that informatiton more broadly under certain circumstances, specifically those where it is clear the client understands the 
+that information more broadly under certain circumstances, specifically those where it is clear the client understands the 
 low risk nature of our solution and has concerns that cannot be easily remedied via self-hosting.
 
 __Do you have security policies__
@@ -131,7 +131,7 @@ __Are your staff trained on security__
 
 Yes, on this point we're somewhat proud as we are building a true security culture as opposed to simply checking a security 
 training box. In general we use a Socratic method of teaching security and allow our employees to develop their own 
-interests in security via a buddy system of independant verification.
+interests in security via a buddy system of independent verification.
 
 There is a mandatory training schedule, but we use the time to talk and engage instead of having people watch a simple 
 online training video via an LMS. We do this because our goal is mastery first, compliance second.
@@ -139,7 +139,7 @@ online training video via an LMS. We do this because our goal is mastery first, 
 __What data do you collect__
 
 Our Privacy Policy explicitly lays out what data we collect. With the exception of some optional data, everything we collect 
-is required for us to provide and maintain our serivce. For the most part we need some basic contact information and then 
+is required for us to provide and maintain our service. For the most part we need some basic contact information and then 
 any items you plan to host. We do not store payment card information and any other potentially sensitive data, e.g., IP 
 addresses are stored only temporarily for troubleshooting or anonymized, aggregated, and deleted.
 
@@ -155,18 +155,18 @@ rest but we are in the process of changing that.
 
 __With who/which Vendors do you share our data__
 
-From a general security perspective we do not share this information freely. We are open to sharing that informatiton more 
+From a general security perspective we do not share this information freely. We are open to sharing that information more 
 broadly under certain circumstances, specifically those where it is clear the client understands the low risk nature of our 
 solution and has concerns that cannot be easily remedied via self-hosting. 
 
-We do have a cloud-based infrastructure where your data is stored (temporarily or permenantly) but while they host the data 
+We do have a cloud-based infrastructure where your data is stored (temporarily or permanently) but while they host the data 
 there are standard agreements in place that those vendors do not access your data. Additionally, access to those 3rd party 
 providers is secured. We process payments via well known and well established 3rd party providers.
 
 __Since you have a cloud-based infrastructure, how do you monitor that__
 
 We have standard monitors for our infrastructure that monitor disk, processor, and network usage. We monitor all our key 
-services to validate their status. We have alerting setup when something fails or experiences a degredation in performance.
+services to validate their status. We have alerting setup when something fails or experiences a degradation in performance.
 Beyond that, large portions of our infrastructure are effectively immutable which provides an additional level of security 
 in general.
 
