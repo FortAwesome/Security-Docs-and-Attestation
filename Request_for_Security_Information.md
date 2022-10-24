@@ -1,4 +1,4 @@
-# REQUESTS FOR SECURITY INFORMATION (DRAFT)
+# REQUESTS FOR SECURITY INFORMATION
 
 ## Classification Level
 Publicly available
@@ -11,7 +11,7 @@ Quarterly
 
 __Date of Last Review__
 
-N/A
+October 24, 2022
 
 ## Purpose
 

@@ -1,4 +1,4 @@
-# ACCESS CONTROL POLICY (DRAFT)
+# ACCESS CONTROL POLICY
 
 ## Classification Level
 Publicly available
@@ -11,7 +11,7 @@ Yearly
 
 __Date of Last Review__
 
-N/A
+October 24, 2022
 
 ## Introduction
 
