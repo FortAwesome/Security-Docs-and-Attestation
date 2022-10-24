@@ -1,12 +1,25 @@
 # REQUESTS FOR SECURITY INFORMATION (DRAFT)
 
+## Classification Level
+Publicly available
+
+## Review Information
+
+__Mandatory Reivew Period__
+
+Quarterly
+
+__Date of Last Review__
+
+N/A
+
 ## Purpose
 
-Fonticons Inc receives regular requests to supply security related information and often fill out security questionnaires.
+Fonticons, Inc. receives regular requests to supply security related information and often fill out security questionnaires.
 While we understand that this is often a part of business and security process, we do not typically provide answers to 
-these questions.  However, in the interest of transparency and respect for other's processes, this document lays out our 
-publically available security information.  We will keep this document up-to-date.  Please review these contents before 
-requesting additional security information. 
+these questions. However, in the interest of transparency and respect for others' processes, this document lays out our 
+publically available security information. We will keep this document up-to-date. Please review these contents before 
+requesting additional security information.
 
 ## Font Awesome Security
 
@@ -22,18 +35,18 @@ requesting additional security information.
 
 #### Font Awesome is Low Risk 
 
-We consider Font Awesome to be a very low risk solution in general.  The core of our offering is effectively images in an 
-SVG, WOFF, or WOFF2 format.  To make it easy to consume these images we have various wrappers and features built for 
-common technologies such as CSS, JavaScript, and various other frameworks.  This aspect of our code is open source, heavily
+We consider Font Awesome to be a very low risk solution in general. The core of our offering is effectively images in an 
+SVG, WOFF, or WOFF2 format. To make it easy to consume these images we have various wrappers and features built for common
+technologies such as CSS, JavaScript, and various other frameworks. This aspect of our code is open source, heavily
 scrutinized, and used without issue by millions of people (who have never been shy about telling us if there is a problem).
 Payment information is processed via secure 3rd parties and the only information about our clients that we must store is a 
-contact email address.  From a privacy perspective, while using Font Awesome, we collect some logs for standard 
+contact email address. From a privacy perspective, while using Font Awesome, we collect some logs for standard 
 troubleshooting and analytics purposes but we make no attempt associate the IP information with individuals, nor do we share 
 or sell the information we do have.
 
 #### Known Security Risks Associated with Font Awesome 
 
-The following are a set of known security risks associated with the use of Font Awesome.  These are risks specific to our 
+The following are a set of known security risks associated with the use of Font Awesome. These are risks specific to our 
 product and do not include items such as phishing attempts or look-a-like domains which are common across the Internet.
 
 1. Access and configuration of Font Awesome is done via an online portal with authentication and authorization via username and password.
@@ -45,7 +58,7 @@ product and do not include items such as phishing attempts or look-a-like domain
 1. SVGs and WOFF/WOFF2 files are graphical in nature and may be attacked to deface a consuming website or service.
    1. An attacker might gain access to our database and inject defaced images into our SVG and WOFF/WOFF2 files resulting in defacement.
    1. An attacker might execute a man-in-the-middle attack to maliciously modify our SVG and WOFF/WOFF2 files resulting in defacement.
-   1. An attacker might execute a denial of service attack against our infrastructure resulting in poor performance on pages using Font Awesome icons.
+   1. An attacker might execute a denial-of-service attack against our infrastructure resulting in poor performance on pages using Font Awesome icons.
 
 #### Discussion of Privacy Risks Associated with Font Awesome 
 
@@ -55,15 +68,15 @@ enough to provide our service and make sure it isn't being over taxed. Unlike fr
 of revenue, Font Awesome's only source of revenue is our clients. In general the overall privacy risk is no higher with Font 
 Awesome than any other publicly available website. We maintain some logs for troubleshooting purposes and we have our own 
 internal analytics. Theoretically, an attacker could gain access to that information and determine that certain IP addresses 
-had connected to sites that use Font Awesome. It is our opinion, however, exposure of this data is only marginally more 
-likely than it would be by simply connecting to the site via the Internet.
+had connected to sites that use Font Awesome. It is our opinion that exposure of this data is only marginally more likely
+than it would be by simply connecting to the site via the Internet.
 
 #### A Quick and Easy Way to Bypass Most Security Concerns When Using Font Awesome 
 
 One of the main benefits of using Font Awesome is that we leverage a CDN to quickly deliver icons to your site, offloading 
-that work from your servers. However, this is the main interaction where there is any risk. When you setup our Kits and your 
-solution directs clients to our CDN so we have to exchange some data. In this way, it is possible for us to learn 
-potentially private data/information (as defined in things like the GDPR) about you and your users.
+that work from your servers. However, this is the main interaction where there is any risk. When you set up our Kits and your 
+solution directs clients to our CDN, we have to exchange some data. In this way, it is possible for us to learn potentially
+peronal data/information (as defined in things like the GDPR) about you and your users.
 
 You can completely bypass this risk by hosting Font Awesome assets yourself. While you would be losing the benefit of our 
 CDN you would have effective control of the assets and no way for Font Awesome to gain any additional information about you 
@@ -74,6 +87,17 @@ The specific instructions to self-host are here: [https://fontawesome.com/docs/w
 
 ## Common Security Questions and Answers
 
+__Will you fill out our security questionnaire__
+
+Maybe
+
+We are a small company and we get a lot of these questionnaires. Many times they are many pages in length and the time spent 
+filling them out would not be recouped on a standard contract for many years. However, as mentioned above, we do care about
+the security of our solution and want you to feel secure in your choice as well. To that end we have helpfully provided 
+answers to some of the most common security questions, along with explanations. If you read this document and fill out the 
+portions of your questionnaire that these answers cover, we will be happy to fill in the blanks. Unfortunately we don't have 
+the resources to answer all questionnaires from scratch every time. 
+
 __Company Name, Parent or Holding Company, etc.__
 
 Fonticons Inc.
@@ -83,7 +107,7 @@ United States
 Not affiliated, controlled, or owned by any other entity.
 No subsidiaries
 
-__Any significant data breaches in the last 3 years__
+__Any significant data breaches in the last 5 years__
 
 No 
 
@@ -98,9 +122,9 @@ __Do you have or maintain any security certifications__
 
 No 
 
-While there is value in having certifications such as SOC 2 or ISO 27001 they do not guarantee security.  For example the 
+While there is value in having certifications such as SOC 2 or ISO 27001 they do not guarantee security. For example the 
 2017 attack on Experian that resulted in the loss of 147 million records happened while the company had ISO 27001 
-certification.  The cost of many of these certifications is not commensurate with the benefit we or our clients would receive 
+certification. The cost of many of these certifications is not commensurate with the benefit we or our clients would receive 
 given the low risk nature of our solution.
 
 __How do you determine/manage security concerns__
@@ -110,9 +134,9 @@ highest level of risk and prioritize fixes.
 
 __Can we review your threat model__
 
-Generally no
+Maybe
 
-We do provide a sanitized and simplified version of our threat model but we hide most of the details. We are open to sharing
+We do provide a sanitized and simplified version of our threat model but we hide many of the details. We are open to sharing
 that information more broadly under certain circumstances, specifically those where it is clear the client understands the 
 low risk nature of our solution and has concerns that cannot be easily remedied via self-hosting.
 
@@ -163,6 +187,15 @@ We do have a cloud-based infrastructure where your data is stored (temporarily o
 there are standard agreements in place that those vendors do not access your data. Additionally, access to those 3rd party 
 providers is secured. We process payments via well known and well established 3rd party providers.
 
+__How do you validate the security of 3rd party vendors__
+
+We try and select vendors that have a good security track record, meet our somewhat specific needs, and generally align with 
+our values.
+
+We do not have a standardized practice for selecting vendors as we are a small company and vendors are chosen on a project
+by project or need by need basis. When possible or practical, we do try to use some of the best established vendors, such as 
+PayPal or Amazon.
+
 __Since you have a cloud-based infrastructure, how do you monitor that__
 
 We have standard monitors for our infrastructure that monitor disk, processor, and network usage. We monitor all our key 
@@ -179,8 +212,8 @@ cloud-based infrastructure with various providers).
 
 __Do services/employees interact with one another securely__
 
-Yes.
+Yes
 
-You can't access our database or configuration for our webserver or CDN without some form of authentication and 
+You can't access our database or configuration for our web server or CDN without some form of authentication and 
 authorization. However, some security is up to the user to implement correctly such as limiting which domains can use their
 kits token for example.
