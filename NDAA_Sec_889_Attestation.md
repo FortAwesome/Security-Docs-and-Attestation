@@ -1,5 +1,20 @@
 # ATTESTATION OF COMPLIANCE WITH NATIONAL DEFENCE AUTHORIZATION ACT - SECTION 889, PARTS A & B
 
+## Classification Level
+Publicly available
+
+## Review Information
+
+__Mandatory Review Period__
+
+Yearly
+
+__Date of Last Review__
+
+October 25, 2022
+
+## Attestation
+
 I, Alex Poiry (user alexpoiry), certify that I am head of security, for Fonticons, Inc. located at:
 
 307 S. Main St. Suite 202
