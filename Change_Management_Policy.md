@@ -11,7 +11,7 @@ Yearly
 
 __Date of Last Review__
 
-October 24, 2022
+October 25, 2022
 
 ## Introduction
 
@@ -40,13 +40,14 @@ ways that we do not expect).
 ### Terms
 
 * The word "we" shall mean Fonticons Inc., all Fonticons employees, and any individuals contracting with Fonticons to complete work.
-* Employee shall mean an individual directly employed by Fonticons Inc. and all contractors, consultants, temporary employees, or business partners.
+* The word Fonticons will be synonymous with Fonticons, Inc. for the purposes of this policy.
+* Employee shall mean an individual directly employed by Fonticons and all contractors, consultants, temporary employees, or business partners.
 * User shall mean any individual who is not an employee.
-* Client shall mean a person or entity who installs or configures part or all of the Font Awesome free product/service for use on a website or product not owned or otherwise controlled by Fonticons.
-* Pro client shall mean a person or entity who installs or configures part or all of the Font Awesome paid product/service for use on a website or product not owned or otherwise controlled by Fonticons.
-* Fonticons system shall mean any computers, communication systems, platforms, and any other information technology systems used by Fonticons Inc., to provide the Font Awesome product and service.
-* Font Awesome product shall mean the icons, their digital representation, and associated icon functionality present in code.
-* Font Awesome service shall mean the technologies that make the Font Awesome product available to clients, users, and site users.
+* Fonticons products/services refers to any and all paid or free products and/or services offered by Fonticons.
+  * Product shall mean, specifically, the icons, their digital representation, and associated icon functionality present in code.
+  * Service shall mean, specifically, the technologies that make the Fonticons product available to clients, users, and site users.
+* Client shall mean a person or entity who installs or configures part or all of Fonticons product/service for use on a website or product not owned or otherwise controlled by Fonticons.
+* Fonticons system shall mean any computers, communication systems, platforms, and any other information technology systems used by Fonticons to provide the Fonticons products/services.
 
 ## Policy
 
@@ -67,5 +68,5 @@ ways that we do not expect).
 
 ## Procedures
 
-1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development (Rob Madole), the head of design (Jory Raphael) the head of security (Alex Poiry), or the CTO (Travis Chase).
+1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development, the head of design, the head of security, or the CTO.
 1. Intentionally or maliciously violating this policy is a serious offense and grounds for termination of employment.

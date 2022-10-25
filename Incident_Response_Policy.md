@@ -20,9 +20,9 @@ associated with a cybersecurity incident, such as a data breach or other attack.
 
 ### Goal Statement
 
-As regards cybersecurity incidents, our focus is on restoring functionality while doing whatever is practical to maintain
-any available information about the attack. However, given the generally very low risk nature of our solution, we will
-preference restoring functionality and maintaining client commitments first.
+With regard to cybersecurity incidents, our focus is on restoring functionality while doing whatever is practical to 
+maintain any available information about the attack. However, given the generally very low risk nature of our solution, we 
+will typically prioritize restoring functionality and maintaining client commitments first.
 
 ### Background Statement
 
