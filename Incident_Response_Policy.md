@@ -65,5 +65,5 @@ understand how we deal with issues, especially those that might result in a loss
 
 ## Procedures
 
-1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development (Rob Madole), the head of security (Alex Poiry), or the CTO (Travis Chase).
+1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development, the head of security, or the CTO.
 1. Intentionally or maliciously violating this policy is a serious offense and is grouds for termination of employment.
