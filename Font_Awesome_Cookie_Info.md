@@ -27,7 +27,8 @@ data about a user than is necessary to provide our service and prevent abuse.
 
 | Cookie Key | Domain | Path | Cookie Classification | Cookie Type | Expiration | Description |
 |------------|--------|------|-----------------------|-------------|------------|-------------|
-| __cf_bm | .vimeo.com | / | Strictly Necessary | Third-party | 30 minutes | This cookie is used by Cloudflare to distinguish between humans and bots. |
+| __cf_bm | .vimeo.com | / | Functionality | Third-party | 30 minutes | This cookie is used by Cloudflare to distinguish between humans and bots. |
+| vuid | .vimeo.com | / | Functionality | Third-party | 2 years | Vimeo installs this cookie to collect tracking information by setting a unique ID to embed videos to the website. |
 | m | m.stripe.com | / | Functionality | Third-party | 2 years | This cookie is used to manage payment activities with Stripe. |
 | guardian_deafult_token | fontawesome.com | / | Strictly Necessary | First-party | 3 months | This cookie is set after login and used for authentication. |
 | _ga | .fontawesome.com | / | Performance | First-party | 2 years | This cookie is used to distinguish unique users by assigning a randomly generated number as a client identifier. |
