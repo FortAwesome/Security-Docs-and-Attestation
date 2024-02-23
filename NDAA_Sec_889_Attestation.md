@@ -1,6 +1,7 @@
 # ATTESTATION OF COMPLIANCE WITH NATIONAL DEFENCE AUTHORIZATION ACT - SECTION 889, PARTS A & B
 
 ## Classification Level
+
 Publicly available
 
 ## Review Information
@@ -11,7 +12,7 @@ Yearly
 
 __Date of Last Review__
 
-October 25, 2022
+Februrary 23, 2024
 
 ## Attestation
 

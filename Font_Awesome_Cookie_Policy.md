@@ -44,11 +44,11 @@ related questions have become common enough that it is appropriate to address sp
 1. Cookies are collected for the purpose of:
    1. Providing a consistant experience across the website by managing state between pages
    1. Securing the site from bots and other unauthorized individuals 
-   1. Determining user traffic on the site
+   1. Determining and analyzing user traffic on the site
    1. Allowing for secure payment schemes
-1. Cookies must not be used for the purpose of:
-   1. Providing any third-party advertisement
-   1. Gaining data or information about users not explicitly required for Font Awesome's confidentiality, integrity, or availability
+   1. Providing necessary functionality, such as icon search
+   1. Providing additional functionality, such as video
+   1. Providing features necessary to advertisers for free users
 1. Specific information about all cookies used on Font Awesome must be maintained and made generally available to anyone interested in the information.
 
 ## Procedures
