@@ -6,20 +6,20 @@ Publicly available
 
 ## Review Information
 
-__Mandatory Reivew Period__
+__Mandatory Review Period__
 
 Quarterly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+February 23, 2024
 
 ## Purpose
 
 Fonticons, Inc. receives regular requests to supply security related information and often fill out security questionnaires.
 While we understand that this is often a part of business and security process, we do not typically provide answers to 
 these questions. However, in the interest of transparency and respect for others' processes, this document lays out our 
-publically available security information. We will keep this document up-to-date. Please review these contents before 
+publicly available security information. We will keep this document up-to-date. Please review these contents before 
 requesting additional security information.
 
 ## Font Awesome Security
