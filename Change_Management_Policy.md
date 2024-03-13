@@ -12,7 +12,7 @@ Yearly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+February 23, 2024
 
 ## Introduction
 

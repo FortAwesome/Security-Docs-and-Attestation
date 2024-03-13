@@ -1,6 +1,7 @@
 # BUG REPORT/BOUNTY POLICY
 
 ## Classification Level
+
 Publicly available
 
 ## Review Information
@@ -11,7 +12,7 @@ Yearly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+February 23, 2024
 
 ## Introduction
 
@@ -41,5 +42,5 @@ offering we don't want to turn that help away.
    1. Praise the work of the reporter on Twitter (if the reporter consents to having us release their Twitter handle and finding) and WE WILL
    1. Communicate the results of our investigation into the bug report with:
       1. The original reporter (if the reporter consents to having us release their Twitter handle and finding) AND
-      1. Identify our plan and timeframe to mitigate the issue
+      1. Identify our plan and time frame to mitigate the issue
    1. All determinations of risk are at the final discretion of the head of security.

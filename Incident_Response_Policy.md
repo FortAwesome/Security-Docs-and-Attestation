@@ -12,7 +12,7 @@ Yearly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+February 23, 2024
 
 ## Introduction
 
@@ -49,22 +49,22 @@ understand how we deal with issues, especially those that might result in a loss
 
 1. All critical systems must have some level of automated monitoring and alerting.
 1. At least one employee must always be "on call" to respond to alerts 24 hours a day 7 days a week.
-1. The on call person must either have access to their computer or a device that is configured to recieve alerts from our automated systems.
+1. The on call person must either have access to their computer or a device that is configured to receive alerts from our automated systems.
 1. All employees are responsible for monitoring potential incidents generally.
 1. The support lead or an assigned delegate monitors help desk tickets for potential incidents between 9 AM and 5 PM Eastern Time, Monday through Friday.
 1. Any employee who detects an incident or potential incident must immediately report it to our internal reporting tool.
 1. Incidents must be investigated immediately.
-   1. If the incident causes an outage or serious degredation of service, it must be addressed immediately.
-   1. If it is unclear if an incident causes serious degredation of service, validate with head of ops, head of development, or the CTO.
-   1. Incidents not causing an outage or serious degregation of service may be addressed during normal business hours.
+   1. If the incident causes an outage or serious degradation of service, it must be addressed immediately.
+   1. If it is unclear if an incident causes serious degradation of service, validate with head of ops, head of development, or the CTO.
+   1. Incidents not causing an outage or serious degradation of service may be addressed during normal business hours.
 1. Any employee can begin addressing an incident after reporting.
 1. During an active incident, all employees should consider the incident their top priority and should coordinate with the team to determine what actions they are expected to take to remedy the issue.
 1. Upon detection of an incident impacting clients a discussion will occur internally and an appropriate employee will make an initial, official statement via Twitter.
-1. System outages must be updated on our status indicator page once we have definitively determined a degregation or service outage.
+1. System outages must be updated on our status indicator page once we have definitively determined a degradation or service outage.
 1. Other department heads or employees will update official communication as necessary.
 1. If an incident results in the loss of client data, we will also communicate that information directly to clients via their existing contact information.
 
 ## Procedures
 
 1. An employee that detects any violation of this policy must report the issue to their supervisor, the head of development, the head of security, or the CTO.
-1. Intentionally or maliciously violating this policy is a serious offense and is grouds for termination of employment.
+1. Intentionally or maliciously violating this policy is a serious offense and is grounds for termination of employment.
