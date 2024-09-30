@@ -6,20 +6,20 @@ Publicly available
 
 ## Review Information
 
-__Mandatory Reivew Period__
+__Mandatory Review Period__
 
 Quarterly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+October 1, 2024
 
 ## Purpose
 
 Fonticons, Inc. receives regular requests to supply security related information and often fill out security questionnaires.
 While we understand that this is often a part of business and security process, we do not typically provide answers to 
 these questions. However, in the interest of transparency and respect for others' processes, this document lays out our 
-publically available security information. We will keep this document up-to-date. Please review these contents before 
+publicly available security information. We will keep this document up-to-date. Please review these contents before 
 requesting additional security information.
 
 ## Font Awesome Security
@@ -77,7 +77,7 @@ than it would be by simply connecting to the site via the Internet.
 One of the main benefits of using Font Awesome is that we leverage a CDN to quickly deliver icons to your site, offloading 
 that work from your servers. However, this is the main interaction where there is any risk. When you set up our Kits and your 
 solution directs clients to our CDN, we have to exchange some data. In this way, it is possible for us to learn potentially
-peronal data/information (as defined in things like the GDPR) about you and your users.
+personal data/information (as defined in things like the GDPR) about you and your users.
 
 You can completely bypass this risk by hosting Font Awesome assets yourself. While you would be losing the benefit of our 
 CDN you would have effective control of the assets and no way for Font Awesome to gain any additional information about you 
