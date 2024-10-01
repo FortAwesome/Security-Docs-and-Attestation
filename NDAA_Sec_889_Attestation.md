@@ -1,4 +1,4 @@
-# ATTESTATION OF COMPLIANCE WITH NATIONAL DEFENCE AUTHORIZATION ACT - SECTION 889, PARTS A & B
+# ATTESTATION OF COMPLIANCE WITH NATIONAL DEFENSE AUTHORIZATION ACT - SECTION 889, PARTS A & B
 
 ## Classification Level
 
@@ -12,7 +12,7 @@ Yearly
 
 __Date of Last Review__
 
-Februrary 23, 2024
+October 1, 2024
 
 ## Attestation
 
@@ -31,7 +31,7 @@ Certifications-Commercial Items.
 
 Provisions are reproduced below for convenience.
 
-Evidence of review stored interally in [sec repo](https://github.com/FortAwesome/sec/blob/main/docs/ndaa_889_review.md).
+Evidence of review stored internally in [sec repo](https://github.com/FortAwesome/sec/blob/main/docs/ndaa_889_review.md).
 
 I certify that misleading or inaccurate information represents violation of False Claims Act and may result in immediate cancellation or
 termination of current or future contracts with the U.S. Government.
@@ -43,7 +43,7 @@ without:
 
 ## Provisions
 
-### 52.204-26 COVERED TELECOMMUNICATIONS EQUIPMENT OR SERVICESREPRESENTATION (DEC 2019)
+### 52.204-26 COVERED TELECOMMUNICATIONS EQUIPMENT OR SERVICES REPRESENTATION (DEC 2019)
 
 (a) Definitions. As used in this provision, “covered telecommunications equipment or services”
 has the meaning provided in the clause 52.204-25, Prohibition on Contracting for Certain
