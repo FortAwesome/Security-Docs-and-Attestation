@@ -12,7 +12,7 @@ Quarterly
 
 __Date of Last Review__
 
-October 1, 2024
+June 18, 2025
 
 ## Purpose
 
@@ -167,6 +167,13 @@ Our Privacy Policy explicitly lays out what data we collect. With the exception 
 is required for us to provide and maintain our service. For the most part we need some basic contact information and then 
 any items you plan to host. We do not store payment card information and any other potentially sensitive data, e.g., IP 
 addresses are stored only temporarily for troubleshooting or anonymized, aggregated, and deleted.
+
+Please review the following for more details:
+
+* https://fontawesome.com/tos
+* https://fontawesome.com/privacy
+* https://fontawesome.com/support#dpfPrinciples
+* https://fontawesome.com/support#dataCollectionDetail
 
 __How is our data protected__
 
