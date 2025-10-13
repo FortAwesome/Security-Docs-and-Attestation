@@ -52,3 +52,4 @@ data about a user than is necessary to provide our service and prevent abuse.
 | YouTube | yt.innertube::nextId | youtube.com | forever | Advertisement | YouTube sets this cookie to register a unique ID to store data on what videos from YouTube the user has seen. |
 | PostHog | ph_phc_* | .fontawesome.com | 1 year | Analytics | This is the PostHog cookie for analytics and A - B testing. |
 | PostHog | dmn_chk_* | .fontawesome.com | session | Analytics | This is the PostHog cookie for analytics and A - B testing. |
+
