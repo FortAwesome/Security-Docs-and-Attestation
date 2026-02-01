@@ -109,11 +109,9 @@ No subsidiaries
 
 __General Contact Information__
 
-```
-General help & support, including security requests: [help@fontawesome.com](mailto:help@fontawesome.com)
-General privacy questions: [privacy@fontawesome.com](mailto:privacy@fontawesome.com])
-Data Protection Officer: [dpo@fontawesome.com](mailto:dpo@fontawesome.com)
-```
+* General help & support, including security requests: [help@fontawesome.com](mailto:help@fontawesome.com)
+* General privacy questions: [privacy@fontawesome.com](mailto:privacy@fontawesome.com])
+* Data Protection Officer: [dpo@fontawesome.com](mailto:dpo@fontawesome.com)
 
 ### Services Overview
 
