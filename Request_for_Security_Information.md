@@ -98,25 +98,22 @@ See our security questionnaire policy here: [Security Questionnaire Policy](http
 
 __Company Name, Parent or Holding Company, etc.__
 
+```
 Fonticons Inc.
-
 307 S. Main St. Suite 202
-
 Bentonville AR 72712
-
 United States
-
 Not affiliated, controlled, or owned by any other entity.
-
 No subsidiaries
+```
 
 __General Contact Information__
 
+```
 General help & support, including security requests: [help@fontawesome.com](mailto:help@fontawesome.com)
-
 General privacy questions: [privacy@fontawesome.com](mailto:privacy@fontawesome.com])
-
 Data Protection Officer: [dpo@fontawesome.com](mailto:dpo@fontawesome.com)
+```
 
 ### Services Overview
 
