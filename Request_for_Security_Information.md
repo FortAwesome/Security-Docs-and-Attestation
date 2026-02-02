@@ -295,7 +295,7 @@ rest but we are in the process of changing that.
 
 Additionally, from a risk management and general security perspective, confidentiality is not and likely should not be the 
 primary concern except for items like tokens and passwords. In general, the data you provide us is meant to be shared on
-your site, application, or web application making they primary concern integrity and availability. To that end, while we do
+your site, application, or web application making the primary concern integrity and availability. To that end, while we do
 protect some of your information, the main purpose of our service is to distribute what you provide us.
 
 __With who/which Vendors do you share our data__
