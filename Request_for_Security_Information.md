@@ -12,7 +12,7 @@ Semi-Annually
 
 __Date of Last Review__
 
-January 26, 2026
+February 1, 2026
 
 ## Purpose
 
@@ -88,25 +88,119 @@ The specific instructions to self-host are here: [https://fontawesome.com/docs/w
 
 ## Common Security Questions and Answers
 
+### General Information
+
 __Will you fill out our security questionnaire__
 
 Maybe
 
-We are a small company and we get a lot of these questionnaires. Many times they are many pages in length and the time spent 
-filling them out would not be recouped on a standard contract for many years. However, as mentioned above, we do care about
-the security of our solution and want you to feel secure in your choice as well. To that end we have helpfully provided 
-answers to some of the most common security questions, along with explanations. If you read this document and fill out the 
-portions of your questionnaire that these answers cover, we will be happy to fill in the blanks. Unfortunately we don't have 
-the resources to answer all questionnaires from scratch every time. 
+See our security questionnaire policy here: [Security Questionnaire Policy](https://github.com/FortAwesome/Security-Docs-and-Attestation/blob/main/Security_Questionnaire_Policy.md)
 
 __Company Name, Parent or Holding Company, etc.__
 
+```
 Fonticons Inc.
 307 S. Main St. Suite 202
 Bentonville AR 72712
 United States
 Not affiliated, controlled, or owned by any other entity.
 No subsidiaries
+```
+
+__General Contact Information__
+
+* General help & support, including security requests: [help@fontawesome.com](mailto:help@fontawesome.com)
+* General privacy questions: [privacy@fontawesome.com](mailto:privacy@fontawesome.com])
+* Data Protection Officer: [dpo@fontawesome.com](mailto:dpo@fontawesome.com)
+
+### Services Overview
+
+| Technology / Service              | Category                    | Usage in Font Awesome                                                                        |
+| --------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------- |
+| Elixir & OTP                      | Language / Runtime          | Primary backend runtime for the Font Awesome application, releases, and supervision tree.    |
+| Phoenix & LiveView                | Web framework               | HTTP endpoints, templating, and real-time dashboards for the customer portal and APIs.       |
+| Node.js + Webpack/Babel           | Frontend build tooling      | Asset pipeline for bundling, linting, and testing the Vue-based UI.                          |
+| Vue 2 + Vuex + Vue Router         | Frontend application        | Renders dashboard, kit builder, and account management screens with shared state management. |
+| Apollo GraphQL + JSON:API clients | API consumption             | Frontend retrieves icon metadata and account data via GraphQL and JSON:API endpoints.        |
+| Redis                             | Cache / session store       | Stores kit state, CDN flags, and other fast-changing data through Redix pools.               |
+| Oban Pro/Web                      | Background jobs             | Manages scheduled kit builds, downloads, and cleanup workflows.                              |
+| AWS S3 via ExAws                  | Object storage              | Provides buckets for kit assets and Stripe log archival.                                     |
+| SendGrid                          | Email delivery              | Sends transactional, marketing, and feedback email from the platform.                        |
+| Stripe                            | Payments                    | Handles subscription billing, price overrides, and webhook verification.                     |
+| Braintree                         | Payments                    | Supports drop-in card collection and related rate-limited endpoints.                         |
+| PayPal                            | Payments                    | Alternative checkout flow with webhook verification.                                         |
+| Algolia + InstantSearch           | Hosted search               | Powers icon/library search experiences in the app.                                           |
+| Cloudsmith API                    | Package distribution        | Uploads, publishes, and monitors kit npm packages.                                           |
+| Google Analytics + reCAPTCHA      | Tracking & abuse prevention | Toggles GA tracking, implements vue-gtag, and secures auth forms with reCAPTCHA.             |
+| GitHub OAuth & GraphQL APIs       | Developer integration       | Links customer accounts to GitHub for OAuth flows and metadata sync.                         |
+| Guardian JWT + Phoenix session    | Authentication              | Issues and validates JWTs plus secure cookies for user sessions.                             |
+
+### Service Details
+
+Below are the services we provide along with details about the services germane to security concerns
+
+__Icon Library & Tooling__
+
+A web application that helps search, browse, and implement icons as part of a broader toolkit for designers and developers.
+
+__Kits__
+
+Scripts that load and make icon assets easily and programmatically available via our servers.
+
+[https://docs.fontawesome.com/web/setup/get-started/](https://docs.fontawesome.com/web/setup/get-started/)
+
+__Self-Hosted Icon Collections & Tools__
+
+A collection of icons in various formats as well as JavaScript, CSS, and other wrappers packaged for use in your website or
+application. These resources are available from our web application or via npm, yarn, pnpm, etc.
+
+[https://docs.fontawesome.com/web/dig-deeper/conflict-detection/](https://docs.fontawesome.com/web/dig-deeper/conflict-detection/)
+[https://docs.fontawesome.com/web/setup/packages/](https://docs.fontawesome.com/web/setup/packages/)
+
+__APIs__
+
+1. JavaScript API for advanced control using the SVG+JS method (layering, counters, subsetting/tree-shaking, etc.). 
+1. GraphQL API to programmatically retrieve icon/release metadata (and account/kit data with auth). 
+1. Conflict Detection API for diagnosing conflicts when other Font Awesome versions are present.
+
+[https://docs.fontawesome.com/apis/](https://docs.fontawesome.com/apis/)
+
+__Plugins__
+
+1. Official WordPress plugin with guidance for using Kits, Pro icons, uploaded icons, and troubleshooting conflicts. 
+1. Official Figma plugin to search and insert icons as SVGs (and optionally include Kit custom icons for Pro users). 
+1. Framework components (React/Vue/Angular/etc.) maintained under the FortAwesome GitHub org.
+
+[https://docs.fontawesome.com/web/use-with/wordpress/](https://docs.fontawesome.com/web/use-with/wordpress/)
+[https://docs.fontawesome.com/desktop/add-icons/figma-plugin/](https://docs.fontawesome.com/desktop/add-icons/figma-plugin/)
+[https://github.com/FortAwesome](https://github.com/FortAwesome)
+
+### Service Technology Details
+
+__Icon Formats & Rendering Toolkits__
+
+1. SVG, webfonts and CSS toolkits
+1. SVG+JS rendering and JavaScript API
+
+__Package Distribution & Developer Tooling__
+
+1. Package-manager distribution (npm/yarn/pnpm) for Font Awesome packages, including Kit Packages.
+1. Kit Packages delivered as installable packages (@awesome.me/kit-*) with assets and configuration with modern package exports.
+1. Tokens for controlled access (package-manager tokens and API tokens for third-party apps).
+
+__Public APIs__
+
+1. GraphQL API hosted at api.fontawesome.com.
+1. JavaScript API and method references (e.g., layering/counters/tree-shaking, and SVG+JS usage).
+
+__Edge Network and Operational Infrastructure__
+
+1. Cloudflare CDN used for icon delivery.
+1. Cloudflare Load Balancing used to keep icon delivery performant and resilient.
+1. Cloudflare Workers for GraphQL API under high load.
+1. Phoenix framework and Docker.
+
+### Security History and Posture
 
 __Any significant data breaches in the last 5 years__
 
@@ -131,7 +225,8 @@ given the low risk nature of our solution.
 __How do you determine/manage security concerns__
 
 We use a threat modeling approach to understand the primary risks to our system. From there we make determinations about the
-highest level of risk and prioritize fixes.
+highest level of risk and prioritize fixes. This is roughly aligned with NIST practices but, as a small firm we can either
+focus on actual security or compliance.
 
 __Can we review your threat model__
 
@@ -139,7 +234,8 @@ Maybe
 
 We do provide a sanitized and simplified version of our threat model but we hide many of the details. We are open to sharing
 that information more broadly under certain circumstances, specifically those where it is clear the client understands the 
-low risk nature of our solution and has concerns that cannot be easily remedied via self-hosting.
+low risk nature of our solution, has concerns that cannot be easily remedied via self-hosting or some other means, and
+understands and agrees to not store sensitive security information about our organization without agreed upon controls, etc.
 
 __Do you have security policies__
 
@@ -147,10 +243,11 @@ Yes
 
 __What security policies do you have__
 
-Access Control, Change Management, Incident Response, and Privacy Policies.
+Access Control, Change Management, Incident Response, and Privacy Policies, etc.
 
 Some of our practices are de facto and easily enforceable in a company of our size but we are open to documenting those
-practices if a valid case can be made that is both useful for us and our clients.
+practices if a valid case can be made that is both useful for us and our clients. These policies are found in the same 
+directory as this document.
 
 __Are your staff trained on security__
 
@@ -160,6 +257,17 @@ interests in security via a buddy system of independent verification.
 
 There is a mandatory training schedule, but we use the time to talk and engage instead of having people watch a simple 
 online training video via an LMS. We do this because our goal is mastery first, compliance second.
+
+### Data Collection and Security
+
+__What access do you require to our network/infrastructure__
+
+None.
+
+In general, we do not need any direct access to your network or infrastructure. Your developers and designers will either
+download the assets they require and use them on your project or add a kit code in your site or web application. This also
+means that we don't offer an SSO feature and any communication between you and us is done via a password based login or a
+token.
 
 __What data do you collect__
 
@@ -184,6 +292,11 @@ However, because of the low risk nature of what we store we don't use MFA on our
 tenancy scheme in our database, etc. All systems that store or transfer data are protected with username and password for 
 login and many of those do use MFA to prevent unauthorized access to client data. We currently do not encrypt our data at 
 rest but we are in the process of changing that.
+
+Additionally, from a risk management and general security perspective, confidentiality is not and likely should not be the 
+primary concern except for items like tokens and passwords. In general, the data you provide us is meant to be shared on
+your site, application, or web application making the primary concern integrity and availability. To that end, while we do
+protect some of your information, the main purpose of our service is to distribute what you provide us.
 
 __With who/which Vendors do you share our data__
 
