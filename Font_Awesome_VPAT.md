@@ -2,7 +2,7 @@
 
 **Product Name:** Font Awesome  
 **Product Version:** 3.1.60  
-**Report Date:** February 2026  
+**Report Date:** March 2026  
 **Report Version:** 1.0  
 **Prepared By:** Jory Raphael, Head of Product  
 **Contact:** hello@fontawesome.com  
@@ -145,7 +145,7 @@ The following terms are used throughout this report:
 | Criteria | Conformance Level | Remarks and Explanations |
 |---|---|---|
 | [501.1 Scope – Incorporation of WCAG 2.x](https://www.access-board.gov/ict/#501.1) | See WCAG tables above | Conformance with WCAG 2.1 Level A and AA is documented in the WCAG 2.1 Report above. |
-| [502.2.1 User Control of Accessibility Features](https://www.access-board.gov/ict/#502.2.1) | Not Applicable | fontawesome.com is not a platform or authoring tool in the traditional sense and does not expose platform-level accessibility settings for user configuration. However, Font Awesome as a toolkit proactively builds accessibility in by default for the developers who use it: icons are hidden from assistive technology via aria-hidden="true" by default, SVG icons injected via Kits automatically receive aria-hidden="true", animations respect the prefers-reduced-motion CSS media feature out of the box, and comprehensive accessibility guidance is provided in documentation at docs.fontawesome.com/web/dig-deeper/accessibility to help developers implement icons accessibly in their own products. |
+| [502.2.1 User Control of Accessibility Features](https://www.access-board.gov/ict/#502.2.1) | Not Applicable | fontawesome.com is not a platform or authoring tool and does not expose platform-level accessibility settings for user configuration. |
 | [502.2.2 No Disruption of Accessibility Features](https://www.access-board.gov/ict/#502.2.2) | Supports | The site does not interfere with accessibility features provided by the user's browser or operating system, including screen readers, zoom, high contrast mode, and reduced motion settings. |
 | [502.3 Accessibility Services](https://www.access-board.gov/ict/#502.3) | Supports | The site uses standard HTML, ARIA, and browser accessibility APIs. Interactive elements expose appropriate names, roles, and states to assistive technologies. |
 | [502.4 Platform Accessibility Features](https://www.access-board.gov/ict/#502.4) | Not Applicable | fontawesome.com is a web application. Platform accessibility is handled by the user's browser and operating system. |
@@ -220,4 +220,4 @@ The following terms are used throughout this report:
 
 | Version | Date | Description |
 |---|---|---|
-| 1.0 | February 2026 | Initial report |
+| 1.0 | March 2026 | Initial report |
