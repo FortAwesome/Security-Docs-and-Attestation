@@ -6,7 +6,7 @@
 **Report Version:** 1.0  
 **Prepared By:** Jory Raphael, Head of Product  
 **Contact:** hello@fontawesome.com  
-**Description:** Font Awesome is an icon library and toolkit used by millions of designers and developers to add scalable vector icons to websites and applications. This report covers the fontawesome.com web application, including icon search, kit management, and account features.
+**Description:** Font Awesome is an icon library and toolkit used by millions of designers and developers to add scalable vector icons to websites and applications. This report covers the fontawesome.com web application, including icon search, Kit management, and account features.
 
 ---
 
